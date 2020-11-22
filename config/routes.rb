@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  resources :machine
+  root to: "machines#index"
 end
